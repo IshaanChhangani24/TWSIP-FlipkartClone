@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: darkblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.formtag {
+  background-color: rgba(255, 255, 0, 0.6);
+  padding: 20px;
+  width: 450px;
+  border-radius: 10px;
+ 
+}
+
+.login-h{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.UPname {
+  display: block;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+}
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #2874f0;
+  color: white;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-btn {
+  background-color: #ff6f00;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #ff8f1f;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  margin: 0;
+  background-color: #34495e;
+}
+
+.main-nav ul li {
+  display: inline;
+}
+
+.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.main-nav ul li a:hover {
+  background-color: #2c3e50;
+}
+
+/* Slider Styles */
+.banner {
+  width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+}
+
+/* Arrow Styles */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Product Grid Styles */
+.products {
+  padding: 20px;
+}
+
+.products h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-card p {
+  color: #888;
+  margin: 10px 0;
+}
+
+.product-card button {
+  padding: 10px 20px;
+  background-color: #2874f0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #3a8df5;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #b34545; /* You can set your preferred background color */
+  padding: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center; /* Center the columns horizontally */
+  flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
+.column {
+  margin: 0 15px; /* Add some margin around columns */
+}
+
+h3 {
+  text-align: center; /* Center the heading text */
+  margin-bottom: 10px; /* Add some space below the heading */
+}
+
+ul {
+  list-style-type: none; /* Remove default list bullets */
+  padding: 0;
+  display: flex; /* Display list items in a horizontal line */
+  justify-content: center; /* Center list items horizontally */
+}
+
+ul li {
+  margin: 0 10px; /* Add some space between list items */
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333; /* Set your preferred text color */
+}
+
+ul li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
